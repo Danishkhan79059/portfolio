@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebarGo{
+    background-color:grey;
+   /* width: 434px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+
+.sidebar nav{
+    padding: 50px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+.main{
+   /* background-color: yellowgreen;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+.infoContainer{
+   /* background-color: lightblue;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{ 
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{ 
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 21px;
+    font-family: 'fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+    
+}
+
+.Buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.Btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+    
+.devPic img{
+    height: 30vw;
+    border-radius: 22px;
+    border-style: groove;
+
+}
+
+
+
+
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 158px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.contactform h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#emailHelp{
+    font-size: 11px;
+    color: blue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.blogcontainer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 23px;
+
+    
+}
+.blogItem p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0; 
+    background-color: red;
+    border-radius: 22px;
+    cursor: pointer;
+    
+}
+
+.skill{
+    margin: 20px;
+    padding: 20px 10px;
+    font-weight: bold;
+    font-display: ;
+    display: flexbox;
+    color: cadetblue;
+    background-color: wheat;
+}
+
+.devinfo h2{
+    color: red;
+    background-color: aqua;
+}
+
+     
+/*.sidebarGo{
+    transform: translate(-443px 0px);
+    position: absolute;
+}*/
+     
+
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    
+}
+.close{
+    margin-left: 124px;
+}
+@media (max-width: 1250px){
+
+    *{
+        /* helllonnnnnnnnnnnnnn */
+     }
+    /* .sidebar{
+        transform: translate(-443px , 0px);
+        position: absolute;
+     }*/
+    }
+
+
+   
+
+
+
+
+
+
+   
+   
+  
+
+
+  
+
+
+
+
+
+
+
+
+
